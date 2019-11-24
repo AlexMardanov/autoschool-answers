@@ -85,7 +85,7 @@ const TicketsBlock = ({ title, data, ticketsCount }: any) => {
   const handleTicketChange = (e: any) => {
     let value = 0
     if (e.target.value > ticketsCount) {
-      value = 0
+      value = ticketsCount
     } else {
       value = e.target.value || 0
     }
