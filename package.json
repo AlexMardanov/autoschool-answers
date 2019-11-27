@@ -44,7 +44,8 @@
   },
   "git": {
     "scripts": {
-      "pre-push": "surge --project ./public --domain autoschool-answers.surge.sh"
+      "pre-push": "surge --project ./public --domain autoschool-answers.surge.sh",
+      "pre-commit": "yarn build"
     }
   },
   "license": "MIT",

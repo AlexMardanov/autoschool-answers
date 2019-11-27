@@ -75,7 +75,7 @@ const Td = styled('td')`
   }
 
   strong {
-    color: #000;
+    color: #fff;
   }
 `
 
